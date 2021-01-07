@@ -1,0 +1,80 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/home/ericwu/miniconda3/envs/tp/bin/python",
+    "editor.formatOnSave": false,
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "editor.fontFamily": "'Operator Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "explorer.decorations.badges": false,
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "[Material Theme]": {
+            "comments": "#229977"
+        }
+    },
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "workbench.colorCustomizations": {
+        "terminal.background": "#1c2529",
+        "terminal.foreground": "#EEFFFF",
+        "terminalCursor.background": "#EEFFFF",
+        "terminalCursor.foreground": "#EEFFFF",
+        "terminal.ansiBlack": "#263238",
+        "terminal.ansiBlue": "#30cff7",
+        "terminal.ansiBrightBlack": "#546E7A",
+        "terminal.ansiBrightBlue": "#82c3ff",
+        "terminal.ansiBrightCyan": "#89DDFF",
+        "terminal.ansiBrightGreen": "#75e947",
+        "terminal.ansiBrightMagenta": "#C792EA",
+        "terminal.ansiBrightRed": "#F07178",
+        "terminal.ansiBrightWhite": "#FFFFFF",
+        "terminal.ansiBrightYellow": "#FFCB6B",
+        "terminal.ansiCyan": "#89DDFF",
+        "terminal.ansiGreen": "#C3E88D",
+        "terminal.ansiMagenta": "#C792EA",
+        "terminal.ansiRed": "#F07178",
+        "terminal.ansiWhite": "#EEFFFF",
+        "terminal.ansiYellow": "#FFCB6B",
+        "editorRuler.foreground": "#413f5c",
+        "panel.background": "#1c2529",
+        "panel.border": "#413f5c",
+    },
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120"
+    ],
+    "C_Cpp.updateChannel": "Insiders",
+    "python.formatting.autopep8Path": "/home/ericwu/miniconda3/bin/autopep8",
+    "python.formatting.blackPath": "/home/ericwu/miniconda3/bin/black",
+    "python.formatting.blackArgs": [
+        "--line-length 120",
+        "--target-version py37",
+    ],
+    "[c]": {},
+    "python.formatting.provider": "autopep8",
+    "python.linting.flake8Args": [
+        "--max-line-length",
+        "120"
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "python.experiments.optInto": [],
+    "autoDocstring.docstringFormat": "google",
+    "window.zoomLevel": 0,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.scrollback": 10000,
+    "workbench.preferredDarkColorTheme": "Material Theme",
+    "workbench.panel.defaultLocation": "bottom",
+    "python.linting.mypyArgs": [
+        "--ignore-missing-imports",
+        "--follow-imports=silent",
+        "--show-column-numbers",
+        "--python-executable EXECUTABLE"
+    ],
+    "python.linting.mypyCategorySeverity.error": "Hint",
+    "python.showStartPage": false,
+    "jupyter.sendSelectionToInteractiveWindow": true,
+}
