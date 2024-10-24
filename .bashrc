@@ -17,10 +17,10 @@ source ~/.git-prompt.sh  # get script from https://github.com/git/git/blob/maste
 function parse_conda_env () {
     if [ ! -z "$CONDA_DEFAULT_ENV" ]
     then
-            echo "($(basename "$CONDA_DEFAULT_ENV")) "
+            echo "($(basename "$CONDA_DEFAULT_ENV"))"
     fi
 }
-PROMPT_COMMAND='__git_ps1 "\[$(tput sc; rightprompt; tput rc)\]\[\033[0;36m\]\u@\h\[\033[0m\] \w" \
+PROMPT_COMMAND='__git_ps1 "\n\[$(tput sc; rightprompt; tput rc)\]\[\033[0;97m\]\u@\h\[\033[0m\] \w" \
         "\n$(parse_conda_env) \[\033[01;32m\]\$ \[\033[0m\]" "\[\033[38;2;193;156;0m\] %s \[\033[0m\]"'
 
 bind '"\e[A": history-search-backward'
